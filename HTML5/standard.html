@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html land="vi"> <!-- khai báo ngôn ngữ cho html5 -->
+<head>
+	<!-- Sau đây là các thẻ cơ bản trong thẻ  -->
+
+	<title>Tiêu đề  - Standard HTML5 TAG + SEO ONPAGE </title>
+
+	<meta charset="utf-8"> <!-- Hỗ trợ tiếng việt -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <!-- Responsive thiết bị -->
+
+	<meta name="description" content="Nội dung mô tả ngắn gọn về website"> <!-- Là nội dung hiển thị trên SERP -->
+
+	<meta name="keywords" content="Từ khoá website, Cách nhau, bởi dấu phẩy"> <!-- Là nội dung giúp các bot spider của SERP dò và xếp hạng -->
+
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- Chèn css bằng file riêng (KHUYẾN KHÍCH) -->
+
+	<!-- Chèn css trong thẻ style (không khuyến khích dùng cách chèn này)-->
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+	</style> <!-- /style tag -->
+
+
+</head> <!-- /head tag -->
+
+
+<body>
+
+	<header><!-- Đây là thẻ header thường dùng chứa các menu chính 1 website hay header cho một bài viết của một chuyên mục cụ thể. -->
+
+		<nav><!-- Nav (navigation) là nơi chứa menu website bên trong là thẻ ul và li hoặc thẻ a, hoặc cả 3. -->
+			<ul> <!-- Đã có thẻ ul thì phải có thẻ li -->
+				<li>
+					<a href="">menu Trang chủ</a>
+				</li>
+
+				<li>
+					<a href="">menu Giới thiệu</a>
+				</li>
+			</ul> <!-- /ul tag -->
+		</nav> <!-- /nav tag-->
+
+	</header> <!-- /header tag-->
+
+
+	<main> <!-- bên trong thẻ này chứa các nội dung gồm các thẻ như: -->
+
+		<h1>
+			Thẻ tiêu đề h1 thường dùng làm đề mục chính cho website
+		</h1> <!-- /h1 tag -->
+
+
+		<h2>
+			Thẻ tiêu đề h2 thường dùng làm đề mục con của đề mục chính thẻ h1
+		</h2> <!-- /h2 tag -->
+
+
+		<h3>
+			Thẻ tiêu đề h3 thường dùng làm đề mục con của đề mục chính thẻ h2
+		</h3> <!-- /h3 tag -->
+
+
+		<h4>
+			Thẻ tiêu đề h4 thường dùng làm đề mục con của đề mục chính thẻ h3
+		</h4> <!-- /h4 tag -->
+
+
+		<h5>
+			Thẻ tiêu đề h5 thường dùng làm đề mục con của đề mục chính thẻ h4
+		</h5> <!-- /h5 tag -->
+
+
+		<h6>
+			Thẻ tiêu đề h6 thường dùng làm đề mục con của đề mục chính thẻ h5
+		</h6> <!-- /h6 tag -->
+
+		<i>Nội dung</i><!-- Thẻ này dùng làm chữ nghiêng -->
+
+
+		<em>Nội dung</em><!-- Thẻ này dùng làm chữ nghiêng -->
+
+
+		<u>Nội dung</u><!-- Thẻ này làm chữ có gạch chân -->
+
+
+		<ins>nội dung</ins><!-- Thẻ này làm chữ có gạch chân -->
+
+
+		<b>Thẻ này làm đậm chữ</b> <!-- in đậm -->
+
+		<strong>Thẻ này cũng làm chữ </strong> <!-- in đậm -->
+
+		<figure> <!-- Thẻ figure xác định nội dung liên quan với nhau thường dùng chứa nội dung liên quan đến nội dung chính như: ảnh, biểu đồ, mã code, sơ đồ,.... thường đi kèm với figcaption: mô tả cho figure-->
+			
+			<code>Mã code</code>
+
+			<figcaption>Trên là đoạn mã cần cài thêm vào máy</figcaption>
+
+		</figure>
+		<img src="/path/to/image.jpg" alt="tên thay thế khi ảnh không load"><!-- Thẻ chèn ảnh, chú ý cần sraltà alt -->
+
+
+		<a href="đường dẫn">Tên đường dẫn</a> <!-- Thẻ liên kết, có thể à 1 website / file (word, pdf, mp3, mp4,..) / ảnh,... -->
+
+
+		<br><!-- Thẻ xuống xuống dòng thường đặt ở cuối câu -->
+
+
+		<p>Nội dung </p> <!-- Thẻ chứa một đoạn nội dung -->
+
+
+		<div> Khối </div> <!-- Thẻ khối xác định -->
+
+
+		<article> <!-- Thẻ bọc nội dung độc lập, có thể là tất cả bài viết một chuyên mục cụ thể, có thể là bài viết cụ thể của 1 trang,.. luôn chứ 1 thẻ tiêu đề từ h1 -> h6 -->
+
+			<h1>Tiêu đề Article, ví dụ: Thời sự</h1>
+
+
+			<section> <!-- Khối xác định, dùng để phân chia 1 trang hay trong nội dung của article, luôn chứa 1 thẻ tiêu đề từ h1 -> h6 -->
+				<h2>Tiêu đề Section 1, ví dụ: Tin trong nước</h2>
+
+			</section>
+
+			<section> <!-- Khối xác định, dùng để phân chia 1 trang hay trong nội dung của article, luôn chứa 1 thẻ tiêu đề từ h1 -> h6 -->
+				<h2>Tiêu đề Section 2, ví dụ: Tin ngoài nước</h2>
+				
+			</section>
+
+
+			<aside> <!-- Thể hiện nội dung thứ cấp của nội dung chính, thường làm sidebar cho website, bài viết liên quan, bài viết mới bên cạnh nội dung, luôn có thẻ tiêu đề, để đảm bảo SEO  thường từ h2 -> h6. nên chia làm nhiều aside thay vì trong 1 thẻ aside chia làm nhiều thẻ section -->
+				
+				<h4>Tiêu đề aside 1, ví dụ: Tin chứng khoán</h4>
+				<!-- Có thể chứa danh sách hay menu, hay các liên kết, rất đa dạng nội dung -->
+				<ul>
+					<li>
+						<a href="">Nội dung bài viết 1</a>
+					</li>
+					<li>
+						<a href="">Nội dung bài viết 2</a>
+					</li>
+					<li>
+						<a href="">Nội dung bài viết 3</a>
+					</li>
+				</ul>
+
+			</aside>
+
+
+
+			<aside> <!-- Thể hiện nội dung thứ cấp của nội dung chính, thường làm sidebar cho website, bài viết liên quan, bài viết mới bên cạnh nội dung, luôn có thẻ tiêu đề, để đảm bảo SEO  thường từ h2 -> h6. nên chia làm nhiều aside thay vì trong 1 thẻ aside chia làm nhiều thẻ section -->
+				
+				<h4>Tiêu đề aside 2, ví dụ: Danh sách VIP </h4>
+				<!-- Có thể chứa danh sách hay menu, hay các liên kết, rất đa dạng nội dung -->
+				<ol>
+					<li>
+						<a href="">Nội dung bài viết 1</a>
+					</li>
+					<li>
+						<a href="">Nội dung bài viết 2</a>
+					</li>
+					<li>
+						<a href="">Nội dung bài viết 3</a>
+					</li>
+				</ol>
+
+			</aside>
+
+
+		</article> <!-- /article -->
+
+
+	</main> <!-- /main tag -->
+
+
+	<footer> <!-- Đây là thẻ footer thể hiện phần chân website, thường chứa các thông tin như: Thông tin liên hệ, chính sách công ty, chính sách hỗ trợ, fanpage, map, hình ảnh, menu, danh sách nổi bật,... và là nơi chứa các đoạn mã -->
+
+		<!-- Hai cách chèn mã script -->
+
+		<!-- Cách 1. Nhúng code trực tiếp -->
+		<script type="text/javascript">
+
+			// Nội dung js / 
+
+		</script>
+
+		<!-- Cách 2. chèn từ file riêng (KHUYẾN KHÍCH)-->
+		<script type="text/javascript" src="ten_file.js"></script>
+
+
+	</footer> <!-- /footer tag -->
+
+
+</body> <!-- /body tag -->
+</html> <!-- /html tag -->
