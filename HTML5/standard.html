@@ -3,11 +3,11 @@
 <head>
 	<!-- Sau đây là các thẻ cơ bản trong thẻ  -->
 
-	<title>Tiêu đề  - Standard HTML5 TAG + SEO ONPAGE </title>
+	<title>Tiêu đề Homepage - Standard HTML5 TAG + SEO ONPAGE </title>
 
 	<meta charset="utf-8"> <!-- Hỗ trợ tiếng việt -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <!-- Responsive thiết bị -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"> <!-- Responsive thiết bị (Theo chuẩn w3c thì không cần dùng thêm: maximum-scale=1.0)-->
 
 	<meta name="description" content="Nội dung mô tả ngắn gọn về website"> <!-- Là nội dung hiển thị trên SERP -->
 
@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"> <!-- Chèn css bằng file riêng (KHUYẾN KHÍCH) -->
 
 	<!-- Chèn css trong thẻ style (không khuyến khích dùng cách chèn này)-->
-	<style type="text/css">
+	<style> /*Theo W3C thì dùng type="text/css" trong thẻ style là không cần thiết*/
 		* {
 			padding: 0;
 			margin: 0;
@@ -49,7 +49,7 @@
 	<main> <!-- bên trong thẻ này chứa các nội dung gồm các thẻ như: -->
 
 		<h1>
-			Thẻ tiêu đề h1 thường dùng làm đề mục chính cho website
+			Thẻ tiêu đề h1 thường dùng làm đề mục chính cho website, mỗi website chỉ nên dùng thẻ H1
 		</h1> <!-- /h1 tag -->
 
 
@@ -103,7 +103,7 @@
 		<img src="/path/to/image.jpg" alt="tên thay thế khi ảnh không load"><!-- Thẻ chèn ảnh, chú ý cần sraltà alt -->
 
 
-		<a href="đường dẫn">Tên đường dẫn</a> <!-- Thẻ liên kết, có thể à 1 website / file (word, pdf, mp3, mp4,..) / ảnh,... -->
+		<a href="/duong-dan/den-file-hay-website/phai-chinh-xac/khong-co-khoang-trang">Tên đường dẫn</a> <!-- Thẻ liên kết, có thể à 1 website / file (word, pdf, mp3, mp4,..) / ảnh,... -->
 
 
 		<br><!-- Thẻ xuống xuống dòng thường đặt ở cuối câu -->
@@ -117,16 +117,16 @@
 
 		<article> <!-- Thẻ bọc nội dung độc lập, có thể là tất cả bài viết một chuyên mục cụ thể, có thể là bài viết cụ thể của 1 trang,.. luôn chứ 1 thẻ tiêu đề từ h1 -> h6 -->
 
-			<h1>Tiêu đề Article, ví dụ: Thời sự</h1>
+			<h2>Tiêu đề Article, ví dụ: Thời sự</h2>
 
 
 			<section> <!-- Khối xác định, dùng để phân chia 1 trang hay trong nội dung của article, luôn chứa 1 thẻ tiêu đề từ h1 -> h6 -->
-				<h2>Tiêu đề Section 1, ví dụ: Tin trong nước</h2>
+				<h3>Tiêu đề Section 1, ví dụ: Tin trong nước</h3>
 
 			</section>
 
 			<section> <!-- Khối xác định, dùng để phân chia 1 trang hay trong nội dung của article, luôn chứa 1 thẻ tiêu đề từ h1 -> h6 -->
-				<h2>Tiêu đề Section 2, ví dụ: Tin ngoài nước</h2>
+				<h3>Tiêu đề Section 2, ví dụ: Tin ngoài nước</h3>
 				
 			</section>
 
@@ -181,14 +181,15 @@
 		<!-- Hai cách chèn mã script -->
 
 		<!-- Cách 1. Nhúng code trực tiếp -->
-		<script type="text/javascript">
+		<!-- Theo W3C Validate thì cũng ko cần dùng type='text/javascript' trong thẻ script-->
+		<script> 
 
 			// Nội dung js / 
 
 		</script>
 
 		<!-- Cách 2. chèn từ file riêng (KHUYẾN KHÍCH)-->
-		<script type="text/javascript" src="ten_file.js"></script>
+		<script src="ten_file.js"></script>
 
 
 	</footer> <!-- /footer tag -->
